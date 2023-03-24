@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template">
+    <t t-name="systray_cloud.icon">
+        <div class="new_icon">
+            <label class="my_icon" style="margin-bottom:-50px;">
+                <div class="icon_div">
+                    <div class="toggle-icon">
+                        <i class="fa fa-cloud" id="fa-icon"/>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </t>
+</templates>
+

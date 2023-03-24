@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template id="dropdown" xml:space="preserve">
+    <t t-name="weather_notification.dropdown">
+        <div class='test_div dropdown dropdown-menu dropdown-menu-right show' style="padding:16px">
+            <div class="cloud" style="width:250px">
+                <div class="main class">
+                <div class="content" id="div-icon">
+                    <img id="icon"
+                         t-attf-src="{{icon}}" style="float:right;">
+                    </img>
+                    <t t-esc="date"/>
+                </div>
+                    <div class="content">
+                        <h1><span t-esc="temp"/>
+                        <span t-esc="cloud"></span> </h1>
+                </div>
+                    <div class="content">
+                <t t-esc="description"/>
+                </div>
+                    <div class="content">
+                    <t t-esc="city"/>
+                </div>
+                    <div class="content">
+                Last Update:
+                    <div class="content">
+                <t t-esc="time"/>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+    </t>
+</template>
